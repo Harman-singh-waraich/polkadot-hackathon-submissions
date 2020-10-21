@@ -1,0 +1,9 @@
+[profile.release]
+panic = 'unwind'
+
+[workspace]
+members = [
+    'node',
+    'pallets/luckynumber',//attach a lucky number to your account and also specify why its lucky for you ;)
+    'runtime',
+]
