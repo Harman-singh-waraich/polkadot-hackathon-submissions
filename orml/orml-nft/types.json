@@ -1,0 +1,22 @@
+ 
+{
+    "Address": "AccountId",
+    "LookupSource": "AccountId",
+    "RefCount": "u8",
+    "ClassId": "u64",
+    "TokenId": "u64",
+    "CID": "Vec<u8>",
+    "ClassData":"u32",
+    "TokenData":  "u32",
+    "TokenInfoOf": {
+      "metadata": "CID",
+      "owner": "AccountId",
+      "data": "TokenData"
+    },
+    "ClassInfoOf": {
+      "metadata": "CID",
+      "totalIssuance": "u32",
+      "owner": "AccountId",
+      "data": "ClassData"
+    }
+  }
